@@ -1,0 +1,356 @@
+export const characters = [
+  {
+    name: "Sol Badguy",
+    health- scale: "0.93-1.0",
+  playstyle: "Rushdown",
+  species: "Gear",
+  release: "Base",
+  difficulty: 2,
+  gender: "Male",
+  colors: ["Red", "White"],
+  imageUrl: "/assets/characters/sol.png"
+  },
+{
+  name: "Ky Kiske",
+    health - scale: "0.93-1.0",
+      playstyle: "All-Rounder",
+        species: "Human",
+          release: "Base",
+            difficulty: 1,
+              gender: "Male",
+                colors: ["Blue", "White"],
+                  imageUrl: "/assets/characters/ky.png"
+},
+{
+  name: "May",
+    health - scale: "0.93-1.0",
+      playstyle: "Rushdown",
+        species: "Human",
+          release: "Base",
+            difficulty: 1,
+              gender: "Female",
+                colors: ["Orange", "Black"],
+                  imageUrl: "/assets/characters/may.png"
+},
+{
+  name: "Axl Low",
+    health - scale: "1.01-1.5",
+      playstyle: "Zoner",
+        species: "Human",
+          release: "Base",
+            difficulty: 2,
+              gender: "Male",
+                colors: ["Red", "Blue", "Black"],
+                  imageUrl: "/assets/characters/axl.png"
+},
+{
+  name: "Chipp Zanuff",
+    health - scale: "1.01-1.5",
+      playstyle: "Rushdown",
+        species: "Human",
+          release: "Base",
+            difficulty: 3,
+              gender: "Male",
+                colors: ["Black", "White", "Red"],
+                  imageUrl: "/assets/characters/chipp.png"
+},
+{
+  name: "Potemkin",
+    health - scale: "0.75-0.92",
+      playstyle: "Grappler", species: "Gear",
+        release: "Base",
+          difficulty: 2,
+            gender: "Male",
+              colors: ["Green", "Brown"],
+                imageUrl: "/assets/characters/potemkin.png"
+},
+{
+  name: "Faust",
+    health - scale: "0.93-1.0",
+      playstyle: "All-Rounder",
+        species: "Human",
+          release: "Base",
+            difficulty: 3,
+              gender: "Male",
+                colors: ["Blue", "White"],
+                  imageUrl: "/assets/characters/faust.png"
+},
+{
+  name: "Millia Rage",
+    health - scale: "1.01-1.5",
+      playstyle: "Rushdown",
+        species: "Human",
+          release: "Base",
+            difficulty: 2,
+              gender: "Female",
+                colors: ["Brown", "Yellow"],
+                  imageUrl: "/assets/characters/millia.png"
+},
+{
+  name: "Zato-1",
+    health - scale: "1.01-1.5",
+      playstyle: "Rushdown",
+        species: "Human",
+          release: "Base",
+            difficulty: 3,
+              gender: "Male",
+                colors: ["Black", "Red"],
+                  imageUrl: "/assets/characters/zato.png"
+},
+{
+  name: "Ramlethal Valentine",
+    health - scale: "0.93-1.0",
+      playstyle: "Zoner",
+        species: "Gear",
+          release: "Base",
+            difficulty: 2,
+              gender: "Female",
+                colors: ["White", "Brown"],
+                  imageUrl: "/assets/characters/ramlethal.png"
+},
+{
+  name: "Leo Whitefang",
+    health - scale: "0.93-1.0",
+      playstyle: "All-Rounder",
+        species: "Human",
+          release: "Base",
+            difficulty: 2,
+              gender: "Male",
+                colors: ["White", "Brown", "Gray"],
+                  imageUrl: "/assets/characters/leo.png"
+},
+{
+  name: "Nagoriyuki",
+    health - scale: "0.75-0.92",
+      playstyle: "Rushdown",
+        species: "Vampire",
+          release: "Base",
+            difficulty: 2,
+              gender: "Male",
+                colors: ["Brown", "Red", "White"],
+                  imageUrl: "/assets/characters/nagoriyuki.png"
+},
+{
+  name: "Giovanna",
+    health - scale: "0.93-1.0",
+      playstyle: "Rushdown",
+        species: "Human",
+          release: "Base",
+            difficulty: 1,
+              gender: "Female",
+                colors: ["Green", "Brown", "White"],
+                  imageUrl: "/assets/characters/giovanna.png"
+},
+{
+  name: "Anji Mito",
+    health - scale: "0.93-1.0",
+      playstyle: "All-Rounder",
+        species: "Human",
+          release: "Base",
+            difficulty: 2,
+              gender: "Male",
+                colors: ["Black", "White", "Blue"],
+                  imageUrl: "/assets/characters/anji.png"
+},
+{
+  name: "I-No",
+    health - scale: "1.01-1.5",
+      playstyle: "Rushdown",
+        species: "Gear",
+          release: "Base",
+            difficulty: 2,
+              gender: "Female",
+                colors: ["Black", "Red"],
+                  imageUrl: "/assets/characters/ino.png"
+},
+{
+  name: "Goldlewis Dickinson",
+    health - scale: "0.75-0.92",
+      playstyle: "Grappler",
+        species: "Human",
+          release: "DLC!",
+            difficulty: 2,
+              gender: "Male",
+                colors: ["Brown", "Gray"],
+                  imageUrl: "/assets/characters/goldlewis.png"
+},
+{
+  name: "Jack-O'",
+    health - scale: "1.01-1.5",
+      playstyle: "Setup",
+        species: "Gear",
+          release: "DLC1",
+            difficulty: 3,
+              gender: "Female",
+                colors: ["White", "Yellow", "Red"],
+                  imageUrl: "/assets/characters/jacko.png"
+},
+{
+  name: "Happy Chaos",
+    health - scale: "1.01-1.5",
+      playstyle: "Zoner",
+        species: "Human",
+          release: "DLC1",
+            difficulty: 2,
+              gender: "Male",
+                colors: ["Blue", "Black"],
+                  imageUrl: "/assets/characters/happychaos.png"
+},
+{
+  name: "Baiken",
+    health - scale: "1.01-1.5",
+      playstyle: "Rushdown",
+        species: "Human",
+          release: "DLC1",
+            difficulty: 2,
+              gender: "Female",
+                colors: ["Red", "White", "Black"],
+                  imageUrl: "/assets/characters/baiken.png"
+},
+{
+  name: "Testament",
+    health - scale: "0.93-1.0",
+      playstyle: "Zoner",
+        species: "Human",
+          release: "DLC1",
+            difficulty: 2,
+              gender: "Non-Binary",
+                colors: ["Red", "Black"],
+                  imageUrl: "/assets/characters/testament.png"
+},
+{
+  name: "Bridget",
+    health - scale: "1.01-1.5",
+      playstyle: "Zoner",
+        species: "Human",
+          release: "DLC2",
+            difficulty: 2,
+              gender: "Female",
+                colors: ["White", "Pink", "Blue"],
+                  imageUrl: "/assets/characters/bridget.png"
+},
+{
+  name: "Sin Kiske",
+    health - scale: "0.93-1.0",
+      playstyle: "Rushdown",
+        species: "Gear",
+          release: "DLC2",
+            difficulty: 2,
+              gender: "Male",
+                colors: ["Blue", "Black", "Gold"],
+                  imageUrl: "/assets/characters/sin.png"
+},
+{
+  name: "Bedman?",
+    health - scale: "0.75-0.92",
+      playstyle: "Setup",
+        species: "Human",
+          release: "DLC2",
+            difficulty: 3,
+              gender: "Male",
+                colors: ["Black", "Purple", "Red"],
+                  imageUrl: "/assets/characters/bedman.png"
+},
+{
+  name: "Asuka R#",
+    health - scale: "0.75-0.92",
+      playstyle: "Zoner",
+        species: "Human",
+          release: "DLC2",
+            difficulty: 2,
+              gender: "Female",
+                colors: ["White", "Black", "Blue"],
+                  imageUrl: "/assets/characters/asuka.png"
+},
+{
+  name: "Elphelt Valentine",
+    health - scale: "1.01-1.5",
+      playstyle: "All-Rounder",
+        species: "Gear",
+          release: "DLC3",
+            difficulty: 2,
+              gender: "Female",
+                colors: ["White", "Pink"],
+                  imageUrl: "/assets/characters/elphelt.png"
+},
+{
+  name: "Dizzy",
+    health - scale: "1.01-1.5",
+      playstyle: "Zoner",
+        species: "Gear",
+          release: "DLC4",
+            difficulty: 2,
+              gender: "Female",
+                colors: ["Black", "Blue", "White"],
+                  imageUrl: "/assets/characters/dizzy.png"
+},
+{
+  name: "Venom",
+    health - scale: "0.93-1.0",
+      playstyle: "Zoner",
+        species: "Human",
+          release: "DLC4",
+            difficulty: 3,
+              gender: "Male",
+                colors: ["White", "Brown"],
+                  imageUrl: "/assets/characters/venom.png"
+},
+{
+  name: "Unika",
+    health - scale: "0.93-1.0",
+      playstyle: "All-Rounder",
+        species: "Gear",
+          release: "DLC4",
+            difficulty: 1,
+              gender: "1",
+                colors: ["Blue", "Black", "Brown"],
+                  imageUrl: "/assets/characters/unika.png"
+},
+{
+  name: "Lucy",
+    health - scale: "1.01-1.5",
+      species: "Human",
+        playstyle: "Rushdown",
+          release: "DLC4",
+            difficulty: 2,
+              gender: "Female",
+                colors: ["Orange", "Gray", "White"],
+                  imageUrl: "/assets/characters/lucy.png"
+},
+{
+  name: "Slayer",
+    health - scale: "0.75-0.92",
+      species: "Vampire",
+        playstyle: "Power",
+          release: "DLC3",
+            difficulty: 2,
+              gender: "Male",
+                colors: ["Black", "Purple"],
+                  imageUrl: "/assets/characters/slayer.png"
+},
+{
+  name: "A.B.A",
+    health - scale: "0.75-0.92",
+      species: "Homonculus",
+        playstyle: "Power",
+          release: "DLC3",
+            difficulty: 2,
+              gender: "Female",
+                colors: ["Green", "White", "Yellow"],
+                  imageUrl: "/assets/characters/aba.png"
+},
+{
+  name: "Johnny",
+    health - scale: "0.93-1.0",
+      species: "Human",
+        playstyle: "Zoner",
+          release: "DLC3",
+            difficulty: 2,
+              gender: "Male",
+                colors: ["Black", "Blue"],
+                  imageUrl: "/assets/charachter/Johnny.png"
+
+}
+
+
+]
