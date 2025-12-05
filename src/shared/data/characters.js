@@ -303,7 +303,7 @@ export const characters = [
     species: "Gear",
     release: "DLC4",
     difficulty: 1,
-    gender: "1",
+    gender: "Female",
     colors: ["Blue", "Black", "Brown"],
     imageUrl: "/assets/characters/unika.png"
   },
@@ -332,7 +332,7 @@ export const characters = [
   {
     name: "A.B.A",
     healthScale: "0.75-0.92",
-    species: "Homonculus",
+    species: "Homunculus",
     playstyle: "Power",
     release: "DLC3",
     difficulty: 2,
@@ -349,7 +349,7 @@ export const characters = [
     difficulty: 2,
     gender: "Male",
     colors: ["Black", "Blue"],
-    imageUrl: "/assets/charachter/Johnny.png"
+    imageUrl: "/assets/characters/Johnny.png"
 
   }
 
