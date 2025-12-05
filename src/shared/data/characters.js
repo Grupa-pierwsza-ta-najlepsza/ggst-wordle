@@ -57,7 +57,8 @@ export const characters = [
   {
     name: "Potemkin",
     healthScale: "0.75-0.92",
-    playstyle: "Grappler", species: "Gear",
+    playstyle: "Grappler",
+    species: "Gear",
     release: "Base",
     difficulty: 2,
     gender: "Male",
