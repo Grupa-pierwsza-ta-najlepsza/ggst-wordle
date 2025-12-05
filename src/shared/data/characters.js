@@ -169,7 +169,7 @@ export const characters = [
     healthScale: "0.75-0.92",
     playstyle: "Grappler",
     species: "Human",
-    release: "DLC!",
+    release: "DLC1",
     difficulty: 2,
     gender: "Male",
     colors: ["Brown", "Gray"],
