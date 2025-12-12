@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import ModeSelector from './shared/components/ModeSelector'
 import ClassicMode from './features/classic-mode/ClassicMode'
-import SilhouetteMode from './features/silhouette-mode/SilhouetteMode'
+//import SilhouetteMode from './features/silhouette-mode/SilhouetteMode'
 import Dashboard from './features/dashboard/Dashboard'
 
 function App() {

@@ -94,8 +94,8 @@ function ClassicMode({ onBack }) {
           <div key={idx} className="bg-gray-800 p-4 rounded-lg">
             <div className="font-bold mb-2">{guess.character.name}</div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
-              <div className={`attribute-box ${guess.comparison.weight}`}>
-                Weight: {guess.character.weight}
+              <div className={`attribute-box ${guess.comparison.healthScale}`}>
+              Health Scale: {guess.character.healthScale}
               </div>
               <div className={`attribute-box ${guess.comparison.playstyle}`}>
                 {guess.character.playstyle}

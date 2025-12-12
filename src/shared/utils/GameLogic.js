@@ -2,13 +2,23 @@ export function compareAttributes(guess, answer) {
     const result = {}
   
     
-    if (guess.weight === answer.weight) {
-      result.weight = 'correct'
-    } else if (Math.abs(guess.weight - answer.weight) === 1) {
-      result.weight = 'partial'
-    } else {
-      result.weight = 'incorrect'
-    }
+    // skalowanie hp rosnące
+const healthScaleOrder = ["0.75-0.92", "0.93-1.0", "1.01-1.5"]
+
+const guessIndex = healthScaleOrder.indexOf(guess.healthScale)
+const answerIndex = healthScaleOrder.indexOf(answer.healthScale)
+
+if (guessIndex === -1 || answerIndex === -1) {
+  // nieznane -> nieprawidlowe
+  result.healthScale = 'incorrect'
+} else if (guessIndex === answerIndex) {
+  result.healthScale = 'correct'
+} else if (Math.abs(guessIndex - answerIndex) === 1) {
+  result.healthScale = 'partial'
+} else {
+  result.healthScale = 'incorrect'
+}
+
   
     
     result.playstyle = guess.playstyle === answer.playstyle ? 'correct' : 'incorrect'
