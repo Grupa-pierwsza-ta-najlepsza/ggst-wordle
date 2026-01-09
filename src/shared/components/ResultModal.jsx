@@ -1,4 +1,4 @@
-function ResultModal({ isWin, answer, tries, onPlayAgain, onBackToMenu }) {
+function ResultModal({ isWin, answer, tries, onBackToMenu }) {
     return (
       <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
         <div className="game-card p-8 max-w-md w-full mx-4">
@@ -11,9 +11,6 @@ function ResultModal({ isWin, answer, tries, onPlayAgain, onBackToMenu }) {
               : `The answer was ${answer}. Better luck next time!`
             }
           </p>
-          <button onClick={onPlayAgain} className="w-full bg-ggst-red hover:bg-red-600 text-white font-bold py-3 px-4 rounded-lg mb-3 transition">
-            Play Again
-          </button>
           <button onClick={onBackToMenu} className="w-full bg-gray-600 hover:bg-gray-700 text-white font-bold py-3 px-4 rounded-lg transition">
             Back to Menu
           </button>

@@ -89,36 +89,48 @@ function ClassicMode({ onBack }) {
       </div>
 
       {/* Guess History */}
-      <div className="space-y-4">
-        {guesses.map((guess, idx) => (
-          <div key={idx} className="bg-gray-800 p-4 rounded-lg">
-            <div className="font-bold mb-2">{guess.character.name}</div>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
-              <div className={`attribute-box ${guess.comparison.healthScale}`}>
-              Health Scale: {guess.character.healthScale}
-              </div>
-              <div className={`attribute-box ${guess.comparison.playstyle}`}>
-                {guess.character.playstyle}
-              </div>
-              <div className={`attribute-box ${guess.comparison.species}`}>
-                {guess.character.species}
-              </div>
-              <div className={`attribute-box ${guess.comparison.release}`}>
-                {guess.character.release}
-              </div>
-              <div className={`attribute-box ${guess.comparison.difficulty}`}>
-                Diff: {guess.character.difficulty}
-              </div>
-              <div className={`attribute-box ${guess.comparison.gender}`}>
-                {guess.character.gender}
-              </div>
-              <div className={`attribute-box ${guess.comparison.colors} md:col-span-2`}>
-                {guess.character.colors.join(', ')}
-              </div>
-            </div>
-          </div>
-        ))}
+<div className="space-y-4">
+  {guesses.map((guess, idx) => (
+    <div key={idx} className="bg-gray-800 p-4 rounded-lg flex gap-4">
+      {/* THUMBNAIL - LEFT SIDE */}
+      <div className="flex-shrink-0 pt-8">
+        <img
+          src={guess.character.imageUrl}
+          alt={guess.character.name}
+          className="w-20 h-20 object-contain rounded border-2 border-ggst-red bg-black"
+        />
       </div>
+
+      {/* NAME + GRID - RIGHT SIDE */}
+      <div className="flex-1">
+        <div className="font-bold mb-2 text-white">{guess.character.name}</div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+          <div className={`attribute-box ${guess.comparison.healthScale}`}>
+            Health Scale: {guess.character.healthScale}
+          </div>
+          <div className={`attribute-box ${guess.comparison.playstyle}`}>
+            {guess.character.playstyle}
+          </div>
+          <div className={`attribute-box ${guess.comparison.species}`}>
+            {guess.character.species}
+          </div>
+          <div className={`attribute-box ${guess.comparison.release}`}>
+            {guess.character.release}
+          </div>
+          <div className={`attribute-box ${guess.comparison.difficulty}`}>
+            Diff: {guess.character.difficulty}
+          </div>
+          <div className={`attribute-box ${guess.comparison.gender}`}>
+            {guess.character.gender}
+          </div>
+          <div className={`attribute-box ${guess.comparison.colors} md:col-span-2`}>
+            {guess.character.colors.join(', ')}
+          </div>
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
 
       {/* Result Modal */}
       {gameOver && (
