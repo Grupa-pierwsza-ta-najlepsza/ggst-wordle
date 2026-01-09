@@ -34,8 +34,8 @@ function SilhouetteMode({ onBack }) {
       alert('Please select a valid character from the list')
       return
     }
-
-    setGuesses([...guesses, guessChar.name])
+   
+    setGuesses([guessChar.name, ...guesses])
     setInput('')
 
     if (guessChar.name === answer.name) {
