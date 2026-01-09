@@ -30,7 +30,7 @@ function ClassicMode({ onBack }) {
     }
 
     const comparison = compareAttributes(guessChar, answer)
-    setGuesses([...guesses, { character: guessChar, comparison }])
+    setGuesses([{ character: guessChar, comparison }, ...guesses])
     setInput('')
 
     // Check win/loss

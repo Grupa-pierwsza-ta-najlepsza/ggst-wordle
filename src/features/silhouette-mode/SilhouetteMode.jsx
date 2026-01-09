@@ -14,11 +14,11 @@ function SilhouetteMode({ onBack }) {
   const maxTries = 5
 
   const revealLevels = [
-    { brightness: 0, blur: 10 },
-    { brightness: 0.2, blur: 8 },
-    { brightness: 0.4, blur: 5 },
-    { brightness: 0.6, blur: 3 },
-    { brightness: 0.8, blur: 1 }
+    { brightness: 0.50, blur: 50 },
+    { brightness: 0.40, blur: 42.5 },
+    { brightness: 0.25, blur: 20 },
+    { brightness: 0.1, blur: 10 },
+    { brightness: 0.05, blur: 5 }
   ]
 
   const currentReveal = revealLevels[revealLevel] || revealLevels[0]

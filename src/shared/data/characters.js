@@ -167,7 +167,7 @@ export const characters = [
   {
     name: "Goldlewis Dickinson",
     healthScale: "0.75-0.92",
-    playstyle: "Grappler",
+    playstyle: "Power",
     species: "Human",
     release: "DLC1",
     difficulty: 2,
