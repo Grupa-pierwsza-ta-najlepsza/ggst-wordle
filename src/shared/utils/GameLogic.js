@@ -53,7 +53,6 @@ if (guessIndex === -1 || answerIndex === -1) {
   }
     */
   
-  const result = getDailyCharacter()
   export function getDailyCharacter(characters) {
     // Wykorzystanie daty do wylosowania postaci
     const today = new Date()
@@ -61,4 +60,4 @@ if (guessIndex === -1 || answerIndex === -1) {
     const index = dayOfYear % characters.length // rollRandom()
     return characters[index]
   }
-  
+  const result = getDailyCharacter()
