@@ -21,7 +21,7 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen" style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)' }}>
+    <div className="min-h-screen" >
       <div className="container mx-auto px-4 py-8 max-w-6xl">
         <header className="text-center mb-8">
           <h1 className="retro-title text-3xl md:text-5xl mb-4">Strivedle</h1>

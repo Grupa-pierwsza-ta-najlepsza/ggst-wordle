@@ -43,6 +43,7 @@ if (guessIndex === -1 || answerIndex === -1) {
 
 
   //tymczasowa funkcja na testowanie
+  /*
   function rollRandom() {
     let number = Math.floor(Math.random() * 32)
     while (number === 18) {
@@ -50,13 +51,14 @@ if (guessIndex === -1 || answerIndex === -1) {
     }
     return number
   }
+    */
   
-  const result = rollRandom()
+  const result = getDailyCharacter()
   export function getDailyCharacter(characters) {
     // Wykorzystanie daty do wylosowania postaci
     const today = new Date()
     const dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24)
-    const index = rollRandom() //dayOfYear % characters.length
+    const index = dayOfYear % characters.length // rollRandom()
     return characters[index]
   }
   

@@ -79,7 +79,7 @@ export const characters = [
   {
     name: "Millia Rage",
     healthScale: "1.01-1.5",
-    playstyle: "Rushdown",
+    playstyle: "Setup",
     species: "Human",
     release: "Base",
     difficulty: 2,
@@ -124,7 +124,7 @@ export const characters = [
     name: "Nagoriyuki",
     healthScale: "0.75-0.92",
     playstyle: "Rushdown",
-    species: "Vampire",
+    species: "Other",
     release: "Base",
     difficulty: 2,
     gender: "Male",
@@ -321,7 +321,7 @@ export const characters = [
   {
     name: "Slayer",
     healthScale: "0.75-0.92",
-    species: "Vampire",
+    species: "Other",
     playstyle: "Power",
     release: "DLC3",
     difficulty: 2,
@@ -332,7 +332,7 @@ export const characters = [
   {
     name: "A.B.A",
     healthScale: "0.75-0.92",
-    species: "Homunculus",
+    species: "Other",
     playstyle: "Power",
     release: "DLC3",
     difficulty: 2,
