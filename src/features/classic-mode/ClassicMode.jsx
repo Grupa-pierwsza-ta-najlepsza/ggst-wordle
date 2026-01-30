@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { characters } from '../../shared/data/characters'
-import { compareAttributes, getDailyCharacter } from '../../shared/utils/gameLogic'
+import { compareAttributes, getDailyCharacter } from '../../shared/utils/gameLogic.js'
 import { saveGameResult } from '../../shared/utils/localStorage'
 import ResultModal from '../../shared/components/ResultModal'
 
